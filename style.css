@@ -1,0 +1,84 @@
+ body{
+   background: #3170d4;
+}
+
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+app h1 {
+    font-size:25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;   
+}
+
+.btn{
+    background : white;
+    color : #222;
+    font-weight: 500;
+    width:100%;
+    border:1px solid #222;
+    padding :10px;
+    margin:10px 0;
+    cursor: pointer;
+}
+
+.btn:hover:not([disabled]){
+    background: #222;
+    color:#fff;
+
+}
+
+#next-btn {
+    background: #3170d4;
+    color: white;
+    font-weight: 500;
+    width:150px;
+    border:0;
+    padding:10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.trigbtn {
+    background: pink;
+}
+
+.login-container{
+    width: 70vh;
+    height: 70vh;
+    margin: 0 auto;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+
+}
+
+.input{
+   
+   
+    padding: 10px;
+    margin:5px;
+    
+}
+
+input{
+   width: 100%;
+   height: 35px;
+   border-radius: 2px; 
+}
+
+.ques-container{
+    display: inline-flex;
+}
